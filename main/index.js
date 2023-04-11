@@ -1,7 +1,7 @@
 // Native
 const { join } = require('path')
-const { format } = require('url')
 
+const { URL } = require('url');
 // Packages
 const { BrowserWindow, app, ipcMain } = require('electron')
 const isDev = require('electron-is-dev')
